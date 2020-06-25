@@ -44,6 +44,8 @@ MacOS / Unix Terminal / Linux
 37.	nl - Outputs a file with number of lines
 38.	cut - Remove sections from each file
 39.	grep - Prints lines that match a pattern.
+40. scp -r user@your.server.example.com:/path/to/foo /home/user/Desktop/ (From remote to local)
+41. scp -r example.txt user@your.server.example.com:/path/to/foo (From local to remote)
 
 
 
