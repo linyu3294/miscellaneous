@@ -1,0 +1,92 @@
+All Shortcuts 
+Mac Finder - go to directory: Cmd – shift – G
+Take Screenshot: Shift-Command-4
+
+
+
+MacOS / Unix Terminal / Linux
+1.	pwd – print working directory
+2.	type – finds the  path of the application (ex. type node , type ruby)
+3.	../ uses dynamic path
+4.	use -R when when making changes to directories (ex. cp -R egg ./jeepers/  ;  rm -R jeepers)
+5.	find . -name test
+6.	cp -R egg ./jeepers/
+7.	Ctrl-C – regain control if terminal gets stuck
+8.	exit – closes connection or window
+9.	echo – repeats what you said
+10.	touch – creates a file
+11.	nano – opens the text editor Nano
+12.	vim – opens the text editor Vim
+13.	ssh – connects to a server
+14.	mkdir – creates a directory
+15.	cd – changes directory
+16.	cd .. for going to the parent directory
+17.	cd ../../ to go to the parents parent directory. and
+18.	cd ../../../../../ for 5th parent directory.
+19.	cat – concatenate and print files
+20.	cp SOURCE DEST 
+21.	cp SOURCE DIRECTORY
+22.	cp SOURCE1 SOURCE2 SOURCE3 SOURCEn DIRECTORY
+23.	cp [OPTION] SOURCE DEST [folders to folder : cp -R egg ./jeepers/]
+24.	cp [OPTION] SOURCE DIRECTORY
+25.	ls – lists directories and files
+26.	> – redirects output from console to file, overwrites existing
+27.	>> – redirects output from console to file, appends existing
+28.	echo * - all files 
+29.	echo *.desktop – lists all files and directories
+30.	echo *D – starts with a ‘D’
+31.	echo “creating a new file” > test.txt (creates and adds test.txt in the current directory)
+32.	echo “writing to created file” >> test.txt (appends to existing file)
+33.	ls - lists the files and folders in the current directory.
+34.	man - Manual pages
+35.	rmdir - Removes an empty directory
+36.	sort - Sorts information
+37.	nl - Outputs a file with number of lines
+38.	cut - Remove sections from each file
+39.	grep - Prints lines that match a pattern.
+
+
+
+Git
+1.	git clone 
+2.	git status
+3.	git config --get remote.origin.url
+4.	git remote set-url
+5.	git config --global user.name "Yu Lin"
+6.	git config --global user.email lin.yu3@husky.neu.edu
+7.	git commit -m "some informative message about your changes" 
+8.	git remote add [origin/name] https://github.ccs.neu.edu/linyu3294/CS5006_yl_repo.git
+9.	git push -u [origin] master
+10.	git rm --cached <file-name>
+11.	git rm -r --cached directory/
+
+
+
+Heroku Client
+1.	heroku login
+
+
+
+Springboot
+1.	spring init --dependencies=web myapp (creates a simple spring web app)
+2.	spring –version
+
+
+
+Node.js
+1.	node -v gets the version of node
+2.	npm -v get the version of npm
+3.	brew upgrade node
+
+
+
+MongoDB
+1.	mongod --dbpath /users/yulin/Documents/data/db 
+2.	mongo (once mongod is ran OPEN ANOTHER TERMINAL THconnect to MongoDB)
+
+
+
+
+
+
+
