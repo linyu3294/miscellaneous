@@ -48,6 +48,9 @@ MacOS / Unix Terminal / Linux
 41. scp -r example.txt user@your.server.example.com:/path/to/foo (From local to remote)
 42. find . -name "foo*"
 
+43. find /path/to/dir -name "search-patter"  2>&1 | grep -v "Permission denied" > output-file
+    
+
 
 
 Git
