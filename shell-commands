@@ -65,6 +65,8 @@ Git
 9.	git push -u [origin] master
 10.	git rm --cached <file-name>
 11.	git rm -r --cached directory/
+12. git remote set-url --add --push [remote] [original repo URL]
+    git remote set-url --add --push [remote] [second repo URL]
 
 
 
