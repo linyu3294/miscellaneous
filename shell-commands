@@ -44,11 +44,11 @@ MacOS / Unix Terminal / Linux
 37.	nl - Outputs a file with number of lines
 38.	cut - Remove sections from each file
 39.	grep - Prints lines that match a pattern.
-40. scp -r user@your.server.example.com:/path/to/foo /home/user/Desktop/ (From remote to local)
-41. scp -r example.txt user@your.server.example.com:/path/to/foo (From local to remote)
-42. find . -name "foo*"
+40. 	scp -r user@your.server.example.com:/path/to/foo /home/user/Desktop/ (From remote to local)
+41. 	scp -r example.txt user@your.server.example.com:/path/to/foo (From local to remote)
+42. 	find . -name "foo*"
 
-43. find /path/to/dir -name "search-patter"  2>&1 | grep -v "Permission denied" > output-file
+43. 	find /path/to/dir -name "search-patter"  2>&1 | grep -v "Permission denied" > output-file
     
 
 
@@ -65,11 +65,11 @@ Git
 9.	git push -u [origin] master
 10.	git rm --cached <file-name>
 11.	git rm -r --cached directory/
-12. git remote set-url --add --push [remote] [original repo URL]
-    git remote set-url --add --push [remote] [second repo URL]
+12. 	git remote set-url --add --push [remote] [original repo URL]
+    	git remote set-url --add --push [remote] [second repo URL]
     
-13. git init --shared
-	Initialized empty Git repository in /home/rstrohmenger/retest
+13. 	git init --shared
+	Initialized empty Git repository in current dirctory
 14.	Type: git config core.sharedRepository 1
 15.	Type: git config receive.denyCurrentBranch ignore
 
