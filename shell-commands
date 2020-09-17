@@ -100,7 +100,13 @@ MongoDB
 
 
 
-
+Docker
+1.	git clone https://github.com/linyu3294/exampleimage
+2.	cd exampleimage
+3.	docker build -t exampleimage
+4.	docker run -d -p 80:80 --name docker-example-image exampleimage
+5.	docker ps -a
+6.	docker container stop docker-example-image
 
 
 
