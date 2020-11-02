@@ -72,6 +72,7 @@ Git
 	Initialized empty Git repository in current dirctory
 14.	Type: git config core.sharedRepository 1
 15.	Type: git config receive.denyCurrentBranch ignore
+16.	git checkout -- .    (unstage all modified commits)
 
 
 
