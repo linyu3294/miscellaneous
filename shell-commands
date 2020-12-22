@@ -95,8 +95,10 @@ NPM/ Node/ React/ ReactNative
 4.      npx create-react-app my-app
 5.      cd my-app
 6.      npm start
-7.      npx npx react-native run-android
-8.      npx react-native run-ios --simulator="iPhone SE"
+7.      npx react-native init MySocialNetwork
+8.      npx react-native start
+8.      npx react-native run-android
+9.      npx react-native run-ios --simulator="iPhone SE"
 
 
 
