@@ -88,10 +88,15 @@ Springboot
 
 
 
-Node.js
+NPM/ Node/ React/ ReactNative
 1.	node -v gets the version of node
 2.	npm -v get the version of npm
 3.	brew upgrade node
+4.      npx create-react-app my-app
+5.      cd my-app
+6.      npm start
+7.      npx npx react-native run-android
+8.      npx react-native run-ios --simulator="iPhone SE"
 
 
 
