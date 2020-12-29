@@ -111,6 +111,10 @@ GraphQL
 Apollo
 1.      apollo schema:download --endpoint=http://localhost:8080/query /Users/yulin/Documents/capture-the-flag/schema.json
 
+Swift
+2.      mkdir CodeGen
+3.      swift package init --type executable 
+
 Docker
 1.	git clone https://github.com/linyu3294/exampleimage
 2.	cd exampleimage
