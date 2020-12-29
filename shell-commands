@@ -112,9 +112,11 @@ Apollo
 1.      apollo schema:download --endpoint=http://localhost:8080/query /Users/yulin/Documents/capture-the-flag/schema.json
 
 Swift
-2.      mkdir CodeGen
-3.      swift package init --type executable 
-
+1.      mkdir CodeGen
+2.      swift package init --type executable 
+3.      CodeGen Apollo Tools -- https://www.apollographql.com/docs/ios/swift-scripting/
+					 
+					 
 Docker
 1.	git clone https://github.com/linyu3294/exampleimage
 2.	cd exampleimage
