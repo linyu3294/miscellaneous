@@ -106,7 +106,10 @@ MongoDB
 1.	mongod --dbpath /users/yulin/Documents/data/db 
 2.	mongo (once mongod is ran OPEN ANOTHER TERMINAL THconnect to MongoDB)
 
+GraphQL
 
+Apollo
+1.      apollo schema:download --endpoint=http://localhost:8080/query /Users/yulin/Documents/capture-the-flag/schema.json
 
 Docker
 1.	git clone https://github.com/linyu3294/exampleimage
