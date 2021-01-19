@@ -47,8 +47,11 @@ MacOS / Unix Terminal / Linux
 40. 	scp -r user@your.server.example.com:/path/to/foo /home/user/Desktop/ (From remote to local)
 41. 	scp -r example.txt user@your.server.example.com:/path/to/foo (From local to remote)
 42. 	find . -name "foo*"
-
 43. 	find /path/to/dir -name "search-patter"  2>&1 | grep -v "Permission denied" > output-file
+44.     vim ~/.zshrc                                    (vim terminal prompt display)
+45.	PROMPT='%F{green}%*%f:%F{blue}%~%f %% '         (customize prompt display in terminal)
+
+
     
 
 
