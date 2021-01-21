@@ -3,8 +3,13 @@ Mac Finder - go to directory: Cmd – shift – G
 Take Screenshot: Shift-Command-4
 
 python 
-1. alias python="python3"
-2. sudo python -m pip install cython
+1. py -m pip install --upgrade pip
+2. python3 -m pip install --user --upgrade pip
+3. python3 -m pip install --user virtualenv
+4. python3 -m venv env
+5. source env/bin/activate
+6. python3 -m pip install --user matplotlib
+7. deactivate
 
 MacOS / Unix Terminal / Linux
 1.	pwd – print working directory
