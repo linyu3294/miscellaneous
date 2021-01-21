@@ -2,7 +2,9 @@ All Shortcuts
 Mac Finder - go to directory: Cmd – shift – G
 Take Screenshot: Shift-Command-4
 
-
+python 
+1. alias python="python3"
+2. sudo python -m pip install cython
 
 MacOS / Unix Terminal / Linux
 1.	pwd – print working directory
