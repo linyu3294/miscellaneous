@@ -6,13 +6,12 @@ M1
 1. arch -arm64 brew install htop
 
 python 
-1. py -m pip install --upgrade pip
-2. python3 -m pip install --user --upgrade pip
-3. python3 -m pip install --user virtualenv
-4. python3 -m venv env
-5. source env/bin/activate
-6. python3 -m pip install --user matplotlib
-7. deactivate
+1. conda config --set env_prompt '({name}) '
+2. conda create --prefix ~/Documents/my-project/conda-env
+3. conda activate ./conda-env
+4. conda install matplotlib
+4. conda deactivate
+3. conda remove --name ./conda-env --all
 
 MacOS / Unix Terminal / Linux
 1.	pwd – print working directory
