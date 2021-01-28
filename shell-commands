@@ -57,7 +57,7 @@ MacOS / Unix Terminal / Linux
 41. 	find . -name "foo*"                         - finds file tthat maaches a pattern.
 42.	grep -r capture-the-flag .                  - finds string that matches a pattern.
 43. 	find /path/to/dir -name "search-patter"  2>&1 | grep -v "Permission denied" > output-file
-44.     vim ~/.zshrc                                    (vim terminal prompt display)
+44.     vim ~/.bash_profile                                    (vim terminal prompt display)
 45.	PROMPT='%F{green}%*%f:%F{blue}%~%f %% '         (customize prompt display in terminal)
 
 
