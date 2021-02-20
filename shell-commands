@@ -5,6 +5,11 @@ Take Screenshot: Shift-Command-4
 M1
 1. arch -arm64 brew install htop
 
+svelte
+1. cd /path/to/svelte-app
+2. npm install
+
+
 python 
 1. conda config --set env_prompt '({name}) '
 2. conda create --prefix ~/Documents/my-project/conda-env
