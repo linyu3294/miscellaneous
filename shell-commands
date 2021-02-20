@@ -9,6 +9,13 @@ svelte
 1. cd /path/to/svelte-app
 2. npm install
 
+vim
+1. vim -p first.txt second.txt
+2. :tabedit {file}  
+3. :tabfind {file}
+4. :tabclose   
+5. gt  - go to next tab
+6. gT - go to previous tab
 
 python 
 1. conda config --set env_prompt '({name}) '
