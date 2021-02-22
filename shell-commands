@@ -105,6 +105,7 @@ Tmux
 2. ctrl + b    left or right - toggle windows
 3. ctrl + b    x.   - klll current window
 4  ctrl + b.   % split window
+5. ctrl + b.   shift + :    resize-p -R 10.   moves the pane divider 10 units to the right 
 
 
 Heroku Client
