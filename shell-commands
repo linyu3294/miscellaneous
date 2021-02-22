@@ -100,6 +100,12 @@ Git
 
 
 
+Tmux 
+1. ctrl + b    shift + 5.  -- starts new window
+2. ctrl + b    left or right - toggle windows
+3. ctrl + b    x.   - klll current window
+4  ctrl + b.   % split window
+
 
 Heroku Client
 1.	heroku login
