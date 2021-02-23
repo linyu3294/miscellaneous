@@ -16,6 +16,7 @@ vim
 4. :tabclose   
 5. gt  - go to next tab
 6. gT - go to previous tab
+7. tabnew ./ScrollVid.svelte 
 
 python 
 1. conda config --set env_prompt '({name}) '
