@@ -23,6 +23,9 @@ vim
 7. tabnew ./ScrollVid.svelte 
 8. ctl-z - to temporarity go back to shell
 9. fg - to go back to edit vim
+10. shift + 4 - goto the end of the line
+11. shift + 5 - toggle between opening and closing of tags
+12. 0 - goto the begining of the line
 
 python 
 1. conda config --set env_prompt '({name}) '
