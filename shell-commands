@@ -21,6 +21,8 @@ vim
 5. gt  - go to next tab
 6. gT - go to previous tab
 7. tabnew ./ScrollVid.svelte 
+8. ctl-z - to temporarity go back to shell
+9. fg - to go back to edit vim
 
 python 
 1. conda config --set env_prompt '({name}) '
