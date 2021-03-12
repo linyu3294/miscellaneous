@@ -14,6 +14,7 @@ svelte
 2. npm install
 
 vim
+0. Use Ctrl-C instead of Escape to toggle modes
 1. vim -p first.txt second.txt
 2. :tabedit {file}  
 3. :tabfind {file}
