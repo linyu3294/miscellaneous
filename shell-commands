@@ -27,6 +27,8 @@ vim
 11. shift + 5 - toggle between opening and closing of tags
 12. 0 - goto the begining of the line
 13. ctrl + N / ctrl + P | space - use auto complete
+14. o - insert new line below
+15. O - insert new line above
 
 python 
 1. conda config --set env_prompt '({name}) '
