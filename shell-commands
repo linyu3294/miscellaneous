@@ -111,6 +111,7 @@ Git
 14.	Type: git config core.sharedRepository 1
 15.	Type: git config receive.denyCurrentBranch ignore
 16.	git checkout -- .    (unstage all modified commits)
+17.     git reset HEAD . && git checkout -- .   (reset head and checkout log)
 
 
 
