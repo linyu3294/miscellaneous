@@ -81,8 +81,8 @@ MacOS / Unix Terminal / Linux
 39. 	scp -r user@your.server.example.com:/path/to/foo /home/user/Desktop/ (From remote to local)
 40. 	scp -r example.txt user@your.server.example.com:/path/to/foo (From local to remote)
 41. 	find . -name "foo*"                         - finds file tthat maaches a pattern.
-42.	grep -r capture-the-flag .                  - finds string that matches a pattern.
-43. 	find /path/to/dir -name "search-patter"  2>&1 | grep -v "Permission denied" > output-file
+42.     find . quickroll -name quickroll 2>/dev/null  -finds a file and avoids permission denied messages
+43.	grep -r capture-the-flag .                  - finds string that matches a pattern.
 44.     vim ~/.bash_profile                                    (vim terminal prompt display)
 45.	PROMPT='%F{green}%*%f:%F{blue}%~%f %% '         (customize prompt display in terminal)
 
