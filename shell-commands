@@ -41,7 +41,7 @@ python
 4. conda install matplotlib
 5. conda deactivate
 6. conda remove --name ./conda-env --all
-7. pycharm -> preferences -> search 'interpreter' -> drop down -> show all -> configure to exiting env created from Conda Navigator
+7. pycharm -> preferences -> search 'interpreter' -> drop down -> show all -> '+' symbol -> configure to exiting env created from Conda Navigator
 
 
 MacOS / Unix Terminal / Linux
