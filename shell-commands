@@ -39,8 +39,9 @@ python
 2. conda create --prefix ~/Documents/my-project/conda-env
 3. conda activate ./conda-env
 4. conda install matplotlib
-4. conda deactivate
-3. conda remove --name ./conda-env --all
+5. conda deactivate
+6. conda remove --name ./conda-env --all
+7. pycharm -> preferences -> search 'interpreter' -> drop down -> more -> '+' symbol -> choose existing python interpreter in virtual env
 
 MacOS / Unix Terminal / Linux
 1.	pwd – print working directory
