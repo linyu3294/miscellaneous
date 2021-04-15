@@ -101,10 +101,10 @@ Git
 2.	git status
 3.	git config --get remote.origin.url
 4.	git remote set-url
-5.	git config --global user.name "Yu Lin"
-6.	git config --global user.email lin.yu3@husky.neu.edu
+5.	git config --global user.name "Your Name
+6.	git config --global user.email xyz@husky.neu.edu
 7.	git commit -m "some informative message about your changes" 
-8.	git remote add [origin/name] https://github.ccs.neu.edu/linyu3294/CS5006_yl_repo.git
+8.	git remote add [origin/name] {repo}.git
 9.	git push -u [origin] master
 10.	git rm --cached <file-name>
 11.	git rm -r --cached directory/
@@ -160,7 +160,7 @@ MongoDB
 GraphQL
 
 Apollo
-1.      apollo schema:download --endpoint=http://localhost:8080/query /Users/yulin/Documents/capture-the-flag/schema.json
+1.      apollo schema:download --endpoint={json url}
 
 Swift
 1.      mkdir CodeGen
