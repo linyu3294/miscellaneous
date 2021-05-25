@@ -33,6 +33,8 @@ vim
 13. ctrl + N / ctrl + P | space - use auto complete
 14. o - insert new line below
 15. O - insert new line above
+16. inoremap jj <ESC> 
+17. use jj instead of <ESC>
 
 python 
 1. conda config --set env_prompt '({name}) '
