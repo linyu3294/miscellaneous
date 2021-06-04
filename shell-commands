@@ -34,7 +34,7 @@ vim
 14. o - insert new line below
 15. O - insert new line above
 16. inoremap jj <ESC> 
-17. use jj instead of <ESC>
+17. use CTRL - C instead of <ESC> to exit INSERT mode !!!
 
 python 
 1. conda config --set env_prompt '({name}) '
