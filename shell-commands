@@ -99,6 +99,7 @@ MacOS / Unix Terminal / Linux
 
 
 Git
+https://about.gitlab.com/images/press/git-cheat-sheet.pdf
 1.	git clone 
 2.	git status
 3.	git config --get remote.origin.url
@@ -119,6 +120,7 @@ Git
 15.	Type: git config receive.denyCurrentBranch ignore
 16.	git checkout -- .    (unstage all modified commits)
 17.     git reset HEAD . && git checkout -- .   (reset head and checkout log)
+
 
 
 
